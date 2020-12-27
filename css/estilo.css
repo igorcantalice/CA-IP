@@ -1,0 +1,22 @@
+/* LIMPAR FORMATAÇÃO PADRÃO DOS NAVEGADORES*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-style: italic;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#area-cabecalho{
+	font-size: 3em;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	width: 100%;
+	line-height: 200px;
+	text-align: center;
+	background-color:  #00ff99;
+}
