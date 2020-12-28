@@ -11,6 +11,7 @@ body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #f2f2f2;
 }
+
 /*
 *** LAYOUT DE CABEÇALHO ***
 */
@@ -24,16 +25,44 @@ body{
 	padding: 30px 0px; 
 	margin: 0px 200px;
 	background-color:  #339966;
-
 }
 
 #area-menu{
 	background-color: white;
 	width: auto;
 	text-align: center;
-	margin: 50px 200px;
+	margin-top: 50px;
 	padding: 0px 30px;
 	border: 4px solid #339966;
+}
+
+#area-geral{
+
+}
+
+#area-filtros{
+	float: left;
+	background-color: white;
+	width: 150px;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 25px;
+	padding: 10px 10px;
+	border-color: #339966;
+	border-top-style: solid; 
+	border-top-width: 10px;
+	text-align: left;
+
+}
+
+#area-catalogo{
+	float: right;
+	border: 10px solid red;
+	margin-top: 50px;
+	margin-right:200px;
+	margin-left: 25px;
+	width: auto;
 
 }
 
@@ -50,7 +79,14 @@ body{
 
 .titulo{
 	color: #339966;
-	padding: 10px 10px;
+	padding: 10px 0px;
+}
+
+.titulo-filtro{
+	font-style: italic;
+	background: #f1f1f1;
+	color: #339966;
+	padding: 7px 0px;
 }
 
 /*
@@ -81,7 +117,25 @@ body{
 	color: white;	
 }
 
+.filtro{
+	font-size: 0.9em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding: 10px 0px;
+
+}
+
+.espacamento-filtros{
+	margin: 10px 10px;
+	border-width: 1px;
+	border-color: #339966;
+	border-style: dotted none none none;
+}
+
 h1{
+	color: #339966;
 	font-size: 1.5em;
 }
 
+input[type=checkbox]{
+	padding:5px 10px;
+}
