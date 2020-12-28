@@ -58,6 +58,9 @@ body{
 }
 
 #area-catalogo{
+	border-color: #339966;
+	border-top-style: solid; 
+	border-top-width: 10px;
 	display: grid;
 	background: white;
 }
