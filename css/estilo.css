@@ -37,7 +37,8 @@ body{
 }
 
 #area-geral{
-
+	margin-top: 50px;
+	margin-right: 200px;
 }
 
 #area-filtros{
@@ -45,9 +46,9 @@ body{
 	background-color: white;
 	width: 150px;
 	text-align: left;
-	margin-top: 50px;
 	margin-left: 200px;
 	margin-right: 25px;
+	margin-bottom: 50px;
 	padding: 10px 10px;
 	border-color: #339966;
 	border-top-style: solid; 
@@ -57,13 +58,8 @@ body{
 }
 
 #area-catalogo{
-	float: right;
-	border: 10px solid red;
-	margin-top: 50px;
-	margin-right:200px;
-	margin-left: 25px;
-	width: auto;
-
+	display: grid;
+	background: white;
 }
 
 .botao{
@@ -87,6 +83,12 @@ body{
 	background: #f1f1f1;
 	color: #339966;
 	padding: 7px 0px;
+}
+.titulo-disciplina{
+	font-size: 1.5em;
+	font-style: italic;
+	color: #339966;
+	padding: 15px 0px;
 }
 
 /*
